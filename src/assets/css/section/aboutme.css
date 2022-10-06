@@ -1,21 +1,33 @@
+.about-me{
+  color: var(--primary-light);
+  margin-top: 30%;
+  height: 30%;
+}
+
+.about-me h2{
+  opacity: 0.5;
+  margin-left: 2%;
+}
+
 .about-me p {
+  margin-top: 2%;
+  margin-left: 3%;
   color: white;
   text-align: left;
-  padding-left: 2%;
+  width: 50%;
 }
 
 .about-me p:first-of-type::before {
   content: "<p>";
-  font-family: "La Belle Aurore", cursive;
   color: var(--secondary-light);
-  font-size: 1.5vh;
-  float: initial;
+  position: relative;
+  left: -1%;
 }
 
 .about-me p:last-child::after {
   content: "</p>";
-  font-family: "La Belle Aurore", cursive;
   color: var(--secondary-light);
-  font-size: 1.5vh;
   float: inline-end;
+  position: relative;
+  left: -1%;;
 }

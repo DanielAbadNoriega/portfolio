@@ -1,0 +1,7 @@
+.footer {
+  margin-top: 30%;
+  height: 10%;
+  background: url("../../lib/images/desktop.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+}

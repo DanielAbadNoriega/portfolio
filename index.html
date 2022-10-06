@@ -4,28 +4,43 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--     <link rel="stylesheet" href="src/assets/lib/font-awesome-css/brands.css" />
+    <link rel="stylesheet" href="src/assets/lib/font-awesome-css/solid.css" /> -->
     <link rel="stylesheet" href="src/assets/css/main.css" />
+    <script src="./src/assets/lib/fontawesome/js/all.js"></script>
     <title>Portfolio DAN</title>
   </head>
   <body>
-    <nav class="nav-bar">
-      <ul>
-        <li>logo</li>
-        <li>Home</li>
-        <li>About me</li>
-        <li>Portfolio</li>
-        <button>Download CV</button>
-      </ul>
-    </nav>
-    <header class="header">
+      <nav class="nav-bar">
+        <ul>
+          <li>
+            <img
+              src="./src/assets/lib/images/Logo_50px.png"
+              alt="Logo"
+            />
+            <a href="#"></a>
+          </li>
+          <li><a href="#aboutme">About me</a></li>
+          <li><a href="#portfolio"> Portfolio</a></li>
+          <li><a href="#contactme">Contact Me</a></li>
+          <button><i class="fa-solid fa-download"></i> CV</button>
+        </ul>
+      </nav>
+
+    <header id="presentation" class="header grid">
       <h1>
         <span>Hi,</span><br />
         I'm Daniel,<br />
         <span>web developer</span><br />
       </h1>
+      <img
+        src="./src/assets/lib/images/Logo_250px.png"
+        alt="Logo"
+      />
     </header>
 
-    <article class="about-me">
+    <article id="aboutme" class="about-me">
+      <h2>About me</h2>
       <p>
         <br />Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
         qui doloribus perspiciatis ad, placeat perferendis ipsam. Aut deleniti
@@ -33,5 +48,23 @@
         officia voluptatum nesciunt. <br />
       </p>
     </article>
+
+    <article id="myskills" class="skills">
+      <h2>Skills</h2>
+      <p>
+        <br />Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+        qui doloribus perspiciatis ad, placeat perferendis ipsam. Aut deleniti
+        rerum similique odit consequatur. Eos, consequatur repellat quasi facere
+        officia voluptatum nesciunt. <br />
+      </p>
+    </article>
+
+    <article id="portfolio" class="work">
+      <h2>Work</h2>
+    </article>
+
+    <footer id="contactme" class="footer">
+
+    </footer>
   </body>
 </html>
