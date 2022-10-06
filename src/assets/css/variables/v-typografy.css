@@ -1,0 +1,69 @@
+html {
+  /* Familias tipográficas */
+  --font-h1: OpenSans-ExtraBold, sans-serif;
+  --font-1:  OpenSans-Bold, sans-serif;
+
+  /* Variables tipográficas */
+  --text-caption: 14px;
+  --text-note: 16px;
+  --text-base: 20px;
+  --text-subheader: 24px;
+  --text-title: 48px;
+  --text-headline: 72px;
+  --text-display: 96px;
+  --text-jumbo: 144px;
+}
+
+@media (max-width: 900px) {
+  html {
+    /* Variables tipográficas */
+    --text-caption: 12px;
+    --text-note: 14px;
+    --text-base: 16px;
+    --text-subheader: 20px;
+    --text-title: 24px;
+    --text-headline: 36px;
+    --text-display: 48px;
+    --text-jumbo: 60px;
+  }
+}
+
+@font-face {
+  font-family: OpenSans-LightItalic;
+  src: url("../../lib/fonts/Open_Sans/static/OpenSans/OpenSans-LightItalic.ttf");
+}
+
+@font-face {
+  font-family: OpenSans-Italic;
+  src: url("../../lib/fonts/Open_Sans/static/OpenSans/OpenSans-Italic.ttf");
+}
+
+@font-face {
+  font-family: OpenSans-MediumItalic;
+  src: url("../../lib/fonts/Open_Sans/static/OpenSans/OpenSans-MediumItalic.ttf");
+}
+
+@font-face {
+  font-family: OpenSans-Regular;
+  src: url("../../lib/fonts/Open_Sans/static/OpenSans/OpenSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: OpenSans-SemiBold;
+  src: url("../../lib/fonts/Open_Sans/static/OpenSans/OpenSans-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: OpenSans-Light;
+  src: url("../../lib/fonts/Open_Sans/static/OpenSans/OpenSans-Light.ttf");
+}
+
+@font-face {
+  font-family: OpenSans-Bold;
+  src: url("../../lib/fonts/Open_Sans/static/OpenSans/OpenSans-Bold.ttf");
+}
+
+@font-face {
+  font-family: OpenSans-ExtraBold;
+  src: url("../../lib/fonts/Open_Sans/static/OpenSans/OpenSans-ExtraBold.ttf");
+}

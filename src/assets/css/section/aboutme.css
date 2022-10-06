@@ -1,0 +1,21 @@
+.about-me p {
+  color: white;
+  text-align: left;
+  padding-left: 2%;
+}
+
+.about-me p:first-of-type::before {
+  content: "<p>";
+  font-family: "La Belle Aurore", cursive;
+  color: var(--secondary-light);
+  font-size: 1.5vh;
+  float: initial;
+}
+
+.about-me p:last-child::after {
+  content: "</p>";
+  font-family: "La Belle Aurore", cursive;
+  color: var(--secondary-light);
+  font-size: 1.5vh;
+  float: inline-end;
+}
