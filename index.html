@@ -11,21 +11,18 @@
     <title>Portfolio DAN</title>
   </head>
   <body>
-      <nav class="nav-bar">
-        <ul>
-          <li>
-            <img
-              src="./src/assets/lib/images/Logo_50px.png"
-              alt="Logo"
-            />
-            <a href="#"></a>
-          </li>
-          <li><a href="#aboutme">About me</a></li>
-          <li><a href="#portfolio"> Portfolio</a></li>
-          <li><a href="#contactme">Contact Me</a></li>
-          <button><i class="fa-solid fa-download"></i> CV</button>
-        </ul>
-      </nav>
+    <nav class="nav-bar">
+      <ul>
+        <li>
+          <img src="./src/assets/lib/images/Logo_50px.png" alt="Logo" />
+          <a href="#"></a>
+        </li>
+        <li><a href="#aboutme">About me</a></li>
+        <li><a href="#portfolio"> Portfolio</a></li>
+        <li><a href="#contactme">Contact Me</a></li>
+        <button><i class="fa-solid fa-download"></i> CV</button>
+      </ul>
+    </nav>
 
     <header id="presentation" class="header grid">
       <h1>
@@ -34,6 +31,12 @@
         <span>web developer</span><br />
       </h1>
       <img
+        srcset="./src/assets/lib/images/Logo_250px.png 250w,
+          ./src/assets/lib/images/Logo_500px.png 400w
+        "
+        sizes="(max-width: 850) 250px,
+        (max-width: 1000) 600px,
+        (max-width: 2000) 700px, 300px"
         src="./src/assets/lib/images/Logo_250px.png"
         alt="Logo"
       />
@@ -63,8 +66,6 @@
       <h2>Work</h2>
     </article>
 
-    <footer id="contactme" class="footer">
-
-    </footer>
+    <footer id="contactme" class="footer"></footer>
   </body>
 </html>
