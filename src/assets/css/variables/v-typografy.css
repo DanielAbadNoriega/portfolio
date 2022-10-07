@@ -1,0 +1,103 @@
+html {
+  /* Familias tipográficas */
+  --font-h1: OpenSans-ExtraBold, sans-serif;
+  --font-1:  OpenSans-Bold, sans-serif;
+  --font-html: Anthony-Hartman-Italic, "La Belle Aurore";
+
+  /* Variables tipográficas */
+  --text-caption: 14px;
+  --text-note: 16px;
+  --text-base: 20px;
+  --text-subheader: 24px;
+  --text-title: 48px;
+  --text-headline: 72px;
+  --text-display: 96px;
+  --text-jumbo: 144px;
+}
+
+@media (max-width: 1150px) {
+  html {
+    /* Variables tipográficas */
+    --text-caption: 8px;
+    --text-note: 12px;
+    --text-base: 16px;
+    --text-subheader: 20px;
+    --text-title: 24px;
+    --text-headline: 36px;
+    --text-display: 48px;
+    --text-jumbo: 60px;
+  }
+}
+
+@media (max-width: 800px) {
+  html {
+    /* Variables tipográficas */
+    --text-caption: 6px;
+    --text-note: 8px; /* etiquetas */
+    --text-base: 12px; /* <p> */
+    --text-subheader: 16px; /* <nav> */
+    --text-title: 18px;
+    --text-headline: 20px; /* <h2> */
+    --text-display: 30px; /* <h1> */
+    --text-jumbo: 36px;
+  }
+}
+
+@media (max-width: 450px) {
+  html {
+    /* Variables tipográficas */
+    --text-caption: 4px;
+    --text-note: 6px;
+    --text-base: 8px;
+    --text-subheader: 12px;
+    --text-title: 16px;
+    --text-headline: 18px;
+    --text-display: 20px;
+    --text-jumbo: 26px;
+  }
+}
+
+@font-face {
+  font-family: Anthony-Hartman-Italic;
+  src: url("../../lib/fonts/anthony_hartman/Anthony\ Hartman\ Italic.ttf");
+}
+
+@font-face {
+  font-family: OpenSans-LightItalic;
+  src: url("../../lib/fonts/Open_Sans/static/OpenSans/OpenSans-LightItalic.ttf");
+}
+
+@font-face {
+  font-family: OpenSans-Italic;
+  src: url("../../lib/fonts/Open_Sans/static/OpenSans/OpenSans-Italic.ttf");
+}
+
+@font-face {
+  font-family: OpenSans-MediumItalic;
+  src: url("../../lib/fonts/Open_Sans/static/OpenSans/OpenSans-MediumItalic.ttf");
+}
+
+@font-face {
+  font-family: OpenSans-Regular;
+  src: url("../../lib/fonts/Open_Sans/static/OpenSans/OpenSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: OpenSans-SemiBold;
+  src: url("../../lib/fonts/Open_Sans/static/OpenSans/OpenSans-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: OpenSans-Light;
+  src: url("../../lib/fonts/Open_Sans/static/OpenSans/OpenSans-Light.ttf");
+}
+
+@font-face {
+  font-family: OpenSans-Bold;
+  src: url("../../lib/fonts/Open_Sans/static/OpenSans/OpenSans-Bold.ttf");
+}
+
+@font-face {
+  font-family: OpenSans-ExtraBold;
+  src: url("../../lib/fonts/Open_Sans/static/OpenSans/OpenSans-ExtraBold.ttf");
+}

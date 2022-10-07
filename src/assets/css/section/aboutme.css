@@ -1,0 +1,33 @@
+.about-me{
+  color: var(--primary-light);
+  margin-top: 30%;
+  height: 30%;
+}
+
+.about-me h2{
+  opacity: 0.5;
+  margin-left: 2%;
+}
+
+.about-me p {
+  margin-top: 2%;
+  margin-left: 3%;
+  color: white;
+  text-align: left;
+  width: 50%;
+}
+
+.about-me p:first-of-type::before {
+  content: "<p>";
+  color: var(--secondary-light);
+  position: relative;
+  left: -1%;
+}
+
+.about-me p:last-child::after {
+  content: "</p>";
+  color: var(--secondary-light);
+  float: inline-end;
+  position: relative;
+  left: -1%;;
+}

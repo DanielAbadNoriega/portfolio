@@ -1,0 +1,83 @@
+/* General Tipografía */
+
+.nav-bar li{
+  font-family: var(--font-1);
+}
+
+.nav-bar button {
+  font-family: var(--font-1);
+}
+
+.header h1{
+  font-family: var(--font-h1);
+}
+
+.header h1:first-of-type:before, .header h1:nth-of-type(1):after {
+  font-family: var(--font-html), cursive;
+}
+
+.about-me h2, p{
+  font-family: var(--font-1);
+}
+
+.about-me p:first-of-type::before,  .about-me p:last-child::after{
+  font-family: var(--font-html), cursive;
+}
+
+.skills h2, p{
+  font-family: var(--font-1);
+}
+
+.skills p:first-of-type::before,  .skills p:last-child::after{
+  font-family: var(--font-html), cursive;
+}
+
+/* Escala tipográfica */
+
+.nav-bar {
+  font-size: var(--text-subheader);
+}
+
+.nav-bar li{
+  font-size: var(--text-base);
+}
+
+.nav-bar button{
+  font-size: var(--text-base);
+}
+
+.header{
+  font-size: var(--text-display);
+}
+
+.header h1:first-of-type:before, .header h1:nth-of-type(1)::after {
+  font-size: var(--text-note);
+}
+
+.about-me h2{
+  font-size: var(--text-headline);
+}
+
+.about-me p {
+  font-size: var(--text-base);
+}
+
+.about-me p:first-of-type::before,  .about-me p:last-child::after{
+  font-size: var(--text-note);
+}
+
+.skills {
+  font-size: var(--text-base);
+}
+
+.skills h2{
+  font-size: var(--text-headline);
+}
+
+.skills p:first-of-type::before,  .skills p:last-child::after{
+  font-size: var(--text-note);
+}
+
+.work h2{
+  font-size: var(--text-headline);
+}

@@ -1,0 +1,13 @@
+.work{
+  color: var(--primary-light);
+  background: url("../../lib/images/bg_pc.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 30%;
+  height: 30%;
+}
+
+.work h2{
+  opacity: 0.5;
+  margin-left: 2%;
+}
