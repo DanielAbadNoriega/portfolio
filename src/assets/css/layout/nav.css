@@ -1,0 +1,44 @@
+.nav-bar {
+  height: var(--spacer-l);
+  text-align: center;
+}
+
+.nav-bar ul {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.nav-bar li {
+  margin: 0;
+  text-align: center;
+  width: 20%;
+  /* flex: 1 1 20%; */
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: var(--primary-1);
+}
+
+.nav-bar button {
+  margin: 0;
+  padding: 0;
+  width: 20%;
+  height: 100%;
+  background-color: transparent;
+  border: 0 transparent;
+  color: var(--primary-1);
+}
+
+.nav-bar img{
+  position: relative;
+  top: 0.5vh;
+}
+
+.fa-download {
+  color: var(--primary-light);
+}

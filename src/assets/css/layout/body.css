@@ -1,0 +1,52 @@
+body {
+  background-color: black;
+  height: 100vh;
+  font-family: var(--font-1);
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.1fr 0.1fr repeat(7, 1fr) 1fr 0.1fr 0.1fr 0.3fr;
+}
+
+.main span:nth-of-type(1) {
+  order: -2;
+}
+
+.main span:nth-of-type(2) {
+  order: -1;
+}
+
+.main span:nth-of-type(3){
+  grid-row: 11 / 12;
+}
+
+.main span:nth-of-type(4){
+  grid-row: 12 / 13;
+}
+
+.main .header {
+  grid-row: 3 / 4;
+}
+
+.main .about-me {
+  grid-row: 5 / 6;
+}
+
+.main .skills {
+  grid-row: 7 / 8;
+}
+
+.main .work {
+  grid-row: 9 / 10;
+}
+
+.main .footer {
+  grid-row: 13 / 14;
+}
+
+.spandec{
+  color: var(--secondary-light);
+  margin-left: 1%;
+}

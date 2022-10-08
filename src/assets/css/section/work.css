@@ -1,0 +1,27 @@
+.work {
+  color: var(--primary-light);
+  background: url("../../lib/images/bg_pc.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+.work h2 {
+  opacity: 0.5;
+  margin-left: 2%;
+}
+
+.work span:nth-last-of-type(1),
+.work span:nth-last-of-type(2) {
+  color: var(--secondary-light);
+  margin-left: 1.5%;
+  position: relative;
+}
+
+.work span:nth-last-of-type(1) {
+  bottom: 2%;
+}
+.work span:nth-last-of-type(2) {
+  top: 3%;
+}

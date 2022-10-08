@@ -1,0 +1,50 @@
+.about-me{
+  color: var(--primary-light);
+  height: 100%;
+  background: url("../../lib/images/paint_art.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.about-me h2{
+  opacity: 0.5;
+  margin-left: 2%;
+}
+
+.about-me span:nth-last-of-type(1),
+.about-me span:nth-last-of-type(2) {
+  color: var(--secondary-light);
+  margin-left: 1.5%;
+  position: relative;
+}
+
+.about-me span:nth-last-of-type(1) {
+  bottom: 2%;
+}
+.about-me span:nth-last-of-type(2) {
+  top: 3%;
+}
+
+.about-me p {
+  margin-left: 3%;
+  color: white;
+  text-align: left;
+  width: 50%;
+}
+
+.about-me p:first-of-type::before {
+  content: "<p>";
+  color: var(--secondary-light);
+  position: relative;
+  left: -1%;
+}
+
+.about-me p:last-child::after {
+  content: "</p>";
+  color: var(--secondary-light);
+  float: inline-end;
+  position: relative;
+  left: -1%;;
+}
+

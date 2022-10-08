@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/assets/css/main.css" />
+    <script src="./src/assets/lib/fontawesome/js/all.js"></script>
+    <script src="./src/js/main.js"></script>
+    <title>Portfolio DAN</title>
+  </head>
+  <body>
+    <nav class="nav-bar">
+      <ul>
+        <li>
+          <img src="./src/assets/lib/images/Logo_50px.png" alt="Logo" />
+          <a href="#"></a>
+        </li>
+        <li><a href="#aboutme">About me</a></li>
+        <li><a href="#portfolio"> Portfolio</a></li>
+        <li><a href="#contactme">Contact Me</a></li>
+        <button><i class="fa-solid fa-download"></i> CV</button>
+      </ul>
+    </nav>
+
+    <main class="main">
+      <span class="spandec">&lt;html&gt;</span>
+      <span class="spandec">&lt;body&gt;</span>
+
+      <!-- HEADER -->
+      <header id="presentation" class="header grid">
+        <h1>
+          Hi,<br />
+          I'm Daniel,<br />
+          <span>web developer</span><br />
+        </h1>
+        <img
+          src="./src/assets/lib/images/Logo_250px.png"
+          srcset="
+            ./src/assets/lib/images/Logo_250px.png 250w,
+            ./src/assets/lib/images/Logo_500px.png 500w
+          "
+          sizes="(min-width: 1500px) 500px,
+          (min-width: 800) 400px,
+           400px"
+          alt="Logo"
+        />
+      </header>
+
+      <!-- ABOUTME -->
+      <section id="aboutme" class="about-me">
+        <span>&lt;h2&gt;</span>
+        <h2>About me</h2>
+        <span>&lt;/h2&gt;</span>
+        <p>
+          <br />Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Accusamus qui doloribus perspiciatis ad, placeat perferendis ipsam.
+          Aut deleniti rerum similique odit consequatur. Eos, consequatur
+          repellat quasi facere officia voluptatum nesciunt. <br />
+        </p>
+      </section>
+
+      <!-- SKILLS -->
+      <section id="myskills" class="skills">
+        <div class="info">
+          <span> &lt;h2&gt; </span>
+          <h2>Skills</h2>
+          <span>&lt;/h2&gt;</span>
+          <p><br />My skills like web developer.<br /></p>
+        </div>
+
+        <div class="grid-skills">
+          <div class="html-skill" onclick="showSkill('html')"></div>
+          <div class="css-skill" onclick="showSkill('css')"></div>
+          <div class="javascript-skill" onclick="showSkill('js')"></div>
+          <div class="react-skill" onclick="showSkill('react')"></div>
+          <div class="git-skill" onclick="showSkill('git')"></div>
+        </div>
+      </section>
+
+      <!-- WORK -->
+      <section id="portfolio" class="work">
+        <span>&lt;h2&gt;</span>
+        <h2>Work</h2>
+        <span>&lt;/h2&gt;</span>
+      </section>
+
+      <span class="spandec">&lt;/body&gt;</span>
+      <span class="spandec">&lt;/html&gt;</span>
+      <footer id="contactme" class="footer">
+      </footer>
+    </main>
+
+    <!-- FOOTER -->
+  </body>
+</html>
