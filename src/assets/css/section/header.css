@@ -27,7 +27,7 @@
 .header h1:first-of-type:before {
   content: "<h1>";
   position: absolute;
-  top: -1vh;
+  top: -1.5vh;
   left: -1%;
 }
 
