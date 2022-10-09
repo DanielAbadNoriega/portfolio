@@ -59,6 +59,10 @@
 }
 
 .nav-bar button{
+  font-size: var(--text-title);
+}
+
+.nav-bar li button{
   font-size: var(--text-base);
 }
 

@@ -6,20 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/assets/css/main.css" />
     <script src="./src/assets/lib/fontawesome/js/all.js"></script>
-    <script src="./src/js/main.js"></script>
+
     <title>Portfolio DAN</title>
   </head>
   <body>
     <nav class="nav-bar">
-      <ul>
+      <button id="dropmenu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <ul id="options">
         <li>
           <img src="./src/assets/lib/images/Logo_50px.png" alt="Logo" />
           <a href="#"></a>
         </li>
         <li><a href="#aboutme">About me</a></li>
         <li><a href="#portfolio"> Portfolio</a></li>
-        <li><a href="#contactme">Contact Me</a></li>
-        <button><i class="fa-solid fa-download"></i> CV</button>
+        <li><a href="#contactme">Contact me</a></li>
+        <li id="CV">
+          <button><i class="fa-solid fa-download"></i> CV</button>
+        </li>
       </ul>
     </nav>
 
@@ -87,10 +92,10 @@
 
       <span class="spandec">&lt;/body&gt;</span>
       <span class="spandec">&lt;/html&gt;</span>
-      <footer id="contactme" class="footer">
-      </footer>
-    </main>
 
-    <!-- FOOTER -->
+      <!-- FOOTER -->
+      <footer id="contactme" class="footer"></footer>
+    </main>
+    <script src="./src/js/main.js"></script>
   </body>
 </html>
