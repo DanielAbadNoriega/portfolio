@@ -1,13 +1,15 @@
-.about-me{
+.about-me {
   color: var(--primary-light);
   height: 100%;
-  background: url("../../lib/images/paint_art.jpg") no-repeat;
+  background: url("../../lib/images/aboutme.png") no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  display: grid;
+  grid-template: 1fr / repeat(2, 1fr);
 }
 
-.about-me h2{
+.about-me h2 {
   opacity: 0.5;
   margin-left: 2%;
 }
@@ -45,6 +47,10 @@
   color: var(--secondary-light);
   float: inline-end;
   position: relative;
-  left: -1%;;
+  left: -1%;
 }
 
+.about-me img{
+  justify-self: center;
+  align-self: center;
+}
