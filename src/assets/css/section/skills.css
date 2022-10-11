@@ -61,9 +61,10 @@
 
 .grid-skills {
   padding-top: 3%;
+  margin-top: 15%;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(30px, 31px));
-  grid-template-rows: repeat(auto-fill, minmax(30px, 31px));
+  grid-template-columns: repeat(auto-fit, minmax(30px, 31px));
+  grid-template-rows: repeat(auto-fit, minmax(30px, 31px));
   /*   opacity: 0.5; */
   height: 100%;
 }
@@ -122,8 +123,16 @@
 
 @media screen and (min-width: 900px) {
   .grid-skills {
-    grid-template-columns: repeat(auto-fill, minmax(60px, 61px));
-    grid-template-rows: repeat(auto-fill, minmax(60px, 61px));
+    grid-template-columns: repeat(auto-fit, minmax(60px, 61px));
+    grid-template-rows: repeat(auto-fit, minmax(60px, 61px));
+  }
+}
+
+@media screen and (min-width: 600px){
+  .grid-skills {
+    align-self: center;
+    grid-template-columns: repeat(auto-fit, minmax(40px, 41px));
+    grid-template-rows: repeat(auto-fit, minmax(40px, 41px));
   }
 }
 

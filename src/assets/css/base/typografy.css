@@ -48,6 +48,10 @@
   font-family: var(--font-html), cursive;
 }
 
+.footer h3{
+  font-family: var(--font-html), cursive;
+}
+
 /* Escala tipográfica */
 
 .nav-bar {
@@ -120,4 +124,8 @@
 
 .spandec{
   font-size: var(--text-note);
+}
+
+.footer h3{
+  font-size: var(--text-headline);
 }

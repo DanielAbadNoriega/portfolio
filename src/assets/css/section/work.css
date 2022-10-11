@@ -30,7 +30,8 @@
 
 .proyects{
   display: grid;
-  grid-template: 1fr / repeat(auto-fill, minmax( 15%, 1fr));
+  grid-template: 1fr / repeat(auto-fill, minmax( 290px, 1fr));
+  gap: 5px;
 }
 
 .card{
@@ -41,25 +42,64 @@
   background-color: rgba(255, 255, 255, 0.06);
   backdrop-filter: blur(0.4rem);
   color: var(--primary-1);
+  transition: .5s transform ease-in;
 }
 
 .portada-1{
-  height: 30%;
-  margin: 2%;
+  width: 280px;
+  height: 120px;
+  margin: 2% auto 0 auto;
   background: url("../../lib/images/developer.png") no-repeat;
   background-size: cover;
   background-position: center;
+  border-radius: 6px;
+}
+
+.portada-2{
+  width: 280px;
+  height: 120px;
+  margin: 2% auto 0 auto;
+  background: url("../../lib/images/developer.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 6px;
 }
 
 .card-description{
-  padding: 1%;
   text-align: left;
-  height: 65%;
-  display: flex;
-  flex-direction: column;
+  height: 60%;
+  display: grid;
+  grid-template: 2fr  1fr / 1fr 1fr;
+}
+
+.card-description p {
+  grid-column: span 2;
+  padding: 2%;
+  margin: 0;
 }
 
 .card-description a{
-  align-self: flex-end;
+  justify-self: center;
+  align-self: center;
   width: fit-content;
+}
+
+.card:hover{
+  transform: rotateY(35deg);
+}
+
+@media screen and (max-width: 600px) {
+  .work{
+    grid-template: 20% 1fr / 1fr;
+  }
+
+  .proyects{
+    display: grid;
+    grid-template: 1fr 1fr / 1fr;
+    gap: 5px;
+  }
+  
+  .card-description{
+    height: auto;
+  }
 }
