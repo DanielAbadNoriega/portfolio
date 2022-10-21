@@ -60,10 +60,11 @@
 /* ----- Skills ----- */
 
 .grid-skills {
-  margin-top: 15%;
+  padding-top: 3%;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(30px, 31px));
-  grid-template-rows: repeat(auto-fit, minmax(30px, 31px));
+  grid-template-columns: repeat(auto-fill, minmax(30px, 31px));
+  grid-template-rows: repeat(auto-fill, minmax(30px, 31px));
+  /*   opacity: 0.5; */
   height: 100%;
 }
 
@@ -119,25 +120,10 @@
   background-image: url("../../lib/images/git_hover.png");
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 900px) {
   .grid-skills {
-    grid-template-columns: repeat(auto-fit, minmax(80px, 81px));
-    grid-template-rows: repeat(auto-fit, minmax(80px, 81px));
-  }
-}
-
-@media screen and (max-width: 999px) {
-  .grid-skills {
-    grid-template-columns: repeat(auto-fit, minmax(60px, 61px));
-    grid-template-rows: repeat(auto-fit, minmax(60px, 61px));
-  }
-}
-
-@media screen and (max-width: 899px){
-  .grid-skills {
-    align-self: center;
-    grid-template-columns: repeat(auto-fit, minmax(40px, 41px));
-    grid-template-rows: repeat(auto-fit, minmax(40px, 41px));
+    grid-template-columns: repeat(auto-fill, minmax(60px, 61px));
+    grid-template-rows: repeat(auto-fill, minmax(60px, 61px));
   }
 }
 
